@@ -1,0 +1,21 @@
+{
+    "name": "kadu/phptest",
+    "description": "Teste de MVC com PHP estruturado e Router",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Kadu Hoffmann",
+            "email": "kaduhoff@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "vlucas/phpdotenv": "^5.3",
+        "kadcore/tcphpmvc": "dev-master"
+    }
+}
